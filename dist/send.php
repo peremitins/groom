@@ -59,7 +59,7 @@ $mail->isHTML(true);
 $mail->Subject = $title;
 $mail->Body = $body;    
 
-// Проверяем отравленность сообщения
+// Проверяем отправленность сообщения
 if ($mail->send()) {$result = "success";} 
 else {$result = "error";}
 
