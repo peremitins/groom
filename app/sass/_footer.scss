@@ -1,0 +1,46 @@
+.footer {
+  background: rgb(141, 141, 141);
+  color: #fff;
+  font-size: calc(12px + 18 * ((100vw - 320px) / 3520));
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 0;
+    & > * {
+      flex: 1 1 33%;
+    }
+  }
+  &__block {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__link {
+    display: flex;
+    & + & {
+      margin-left: 20px;
+    }
+    
+    span {
+      padding-left: 10px;
+      &:hover {
+        color: rgb(199, 199, 199);
+      }
+    }
+  }
+}
+
+
+.svg {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  fill: #fff;
+  opacity: 0.8;
+  transition: opacity 0.3s, transform 0.3s;
+  &:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}

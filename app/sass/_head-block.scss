@@ -1,0 +1,30 @@
+.head {
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+  }
+  &__text {
+    flex: 1 1 50%;
+    color: rgb(48, 48, 48);
+    text-shadow: $textShadow;
+  }
+  &__title {
+    font-family: 'Comfortaa';
+    font-size: calc(24px + 60 * ((100vw - 320px) / 3520));
+    color: $colorH1;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  &__description {
+    font-size: calc(18px + 40 * ((100vw - 320px) / 3520));
+  }
+  &__image-block {
+    flex: 1 1 50%;
+    img {
+      width: 100%;
+    }
+  }
+}

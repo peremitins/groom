@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Roboto/roboto-v20-cyrillic-regular.woff2") format("woff2");
+  src: local(""), url("../fonts/Roboto/roboto-v20-cyrillic-regular.woff") format("woff"),
+    url("../fonts/Roboto/roboto-v20-cyrillic-regular.ttf") format("truetype"),
+    url("../fonts/Roboto/roboto-v20-cyrillic-regular.svg") format("svg"),
+    url("../fonts/Roboto/roboto-v20-cyrillic-regular.eot") format("embedded-opentype"),
+    url("../fonts/Roboto/roboto-v20-cyrillic-regular.eot");
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Roboto/roboto-v20-cyrillic-700.woff2") format("woff2");
+  src: local(""), url("../fonts/Roboto/roboto-v20-cyrillic-700.woff") format("woff"),
+    url("../fonts/Roboto/roboto-v20-cyrillic-700.ttf") format("truetype"),
+    url("../fonts/Roboto/roboto-v20-cyrillic-700.svg") format("svg"),
+    url("../fonts/Roboto/roboto-v20-cyrillic-700.eot") format("embedded-opentype"),
+    url("../fonts/Roboto/roboto-v20-cyrillic-700.eot");
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Comfortaa/comfortaa-v29-cyrillic-regular.woff2") format("woff2");
+  src: local(""), url("../fonts/Comfortaa/comfortaa-v29-cyrillic-regular.woff") format("woff"),
+    url("../fonts/Comfortaa/comfortaa-v29-cyrillic-regular.ttf") format("truetype"),
+    url("../fonts/Comfortaa/comfortaa-v29-cyrillic-regular.svg") format("svg"),
+    url("../fonts/Comfortaa/comfortaa-v29-cyrillic-regular.eot") format("embedded-opentype"),
+    url("../fonts/Comfortaa/comfortaa-v29-cyrillic-regular.eot");
+}
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Comfortaa/comfortaa-v29-cyrillic-700.woff2") format("woff2");
+  src: local(""), url("../fonts/Comfortaa/comfortaa-v29-cyrillic-700.woff") format("woff"),
+    url("../fonts/Comfortaa/comfortaa-v29-cyrillic-700.ttf") format("truetype"),
+    url("../fonts/Comfortaa/comfortaa-v29-cyrillic-700.svg") format("svg"),
+    url("../fonts/Comfortaa/comfortaa-v29-cyrillic-700.eot") format("embedded-opentype"),
+    url("../fonts/Comfortaa/comfortaa-v29-cyrillic-700.eot");
+}
