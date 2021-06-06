@@ -1,11 +1,13 @@
 # Groom - стрижка домашних животных
-
-> Используется HTML, CSS/SASS, JS, PHP, Gulp, Git.
-> Верстка с соблюдением семантики и методологии БЭМ. Зеленая зона GooglePageSpeed.
-
-### Compiles and hot-reloads for development
-> gulp
-### Compiles and minifies for production
-> gulp build
-
 ##### https://allfreelance.github.io/groom/app
+
+> Used HTML, CSS/SASS, JS, Gulp, Git.
+> Compliance with BEM methodology and semantics. Green Zone GooglePageSpeed.
+
+[![](https://github.com/allfreelance/groom/blob/main/screen.jpg)](https://allfreelance.github.io/groom/app)
+
+#### Compiles and hot-reloads for development
+> gulp
+
+#### Compiles and minifies for production
+> gulp build
